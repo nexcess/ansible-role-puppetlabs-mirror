@@ -1,0 +1,4 @@
+---
+
+puppetlabs_mirror_source: "yum.puppetlabs.com::packages"
+puppetlabs_mirror_cron_disabled: true
