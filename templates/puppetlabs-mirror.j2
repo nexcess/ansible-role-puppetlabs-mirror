@@ -18,6 +18,7 @@ if [[ ! -e $LOCKFILE ]]; then
           --stats            \
           --itemize-changes  \
           --timeout=10800    \
+          --exclude '.*.rpm.*' \
           ${SOURCE} ${DESTINATION}
 
     if [[ $? -eq 0 ]]; then
